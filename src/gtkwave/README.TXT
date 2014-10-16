@@ -1,0 +1,1 @@
+This directory contains modified gtkwave-3.3.45 (http://downloads.sourceforge.net/project/gtkwave/gtkwave-3.3.45/gtkwave-3.3.45.tar.gz).

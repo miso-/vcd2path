@@ -1,0 +1,14 @@
+cmake_minimum_required(VERSION 2.6)
+
+set (VCD2PATH_SOURCES
+  ${VCD2PATH_SOURCES}
+  ${CMAKE_CURRENT_SOURCE_DIR}/SignalAssignmentDia.cpp
+  ${CMAKE_CURRENT_SOURCE_DIR}/StepperDriversWdg.cpp
+  ${CMAKE_CURRENT_SOURCE_DIR}/StepperDriverTreeItem.cpp
+  PARENT_SCOPE)
+
+set (VCD2PATH_HEADERS
+  ${VCD2PATH_HEADERS}
+  ${CMAKE_CURRENT_SOURCE_DIR}/SignalAssignmentDia.h
+  ${CMAKE_CURRENT_SOURCE_DIR}/StepperDriversWdg.h
+  PARENT_SCOPE)
